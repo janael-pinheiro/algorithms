@@ -1,7 +1,24 @@
-# Python
-.pytest_cache/
-__pypackages__/
-__pycache__
-
-.idea
+# General
+.idea  
 .vscode
+
+# Python
+.pytest_cache
+__pycache__/
+__pypackages__/
+
+
+# Clojure
+/target
+/classes
+/checkouts
+profiles.clj
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+/.prepl-port
+.hgignore
+.hg/

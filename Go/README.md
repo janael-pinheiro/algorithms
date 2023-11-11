@@ -1,0 +1,2 @@
+## Testing
+$ go test -v ./..

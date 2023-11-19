@@ -15,10 +15,10 @@ class QuickSort:
         self.j = right
         self.pivot = self.values[left]
 
-        while self.i<=self.j:
-            while self.values[self.i]<self.pivot:
+        while self.i <= self.j:
+            while self.values[self.i] < self.pivot:
                 self.i += 1
-            while self.values[self.j]>self.pivot:
+            while self.values[self.j] > self.pivot:
                 self.j -= 1
 
             if self.i <= self.j:
@@ -33,9 +33,3 @@ class QuickSort:
             self.sort(self.values, self.i, right)
 
         return self.values
-
-
-if __name__ == "__main__":
-    values_to_sort = [5, 10, 9, 3, 1]
-    quicksort = QuickSort()
-    quicksort.sort(values_to_sort, 0, len(values_to_sort)-1)

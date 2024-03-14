@@ -1,6 +1,6 @@
 import pytest
 
-from algorithms.graph.search.graph import Graph
+from algorithms.graphs.search.graph import Graph
 from algorithms.sort.bubble_sort import BubbleSort
 from algorithms.sort.insertion_sort import InsertionSort
 from algorithms.sort.merge_sort import MergeSort

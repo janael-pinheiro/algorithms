@@ -1,4 +1,4 @@
-from algorithms.graph.search.depth_first_search import DepthFirstSearch
+from algorithms.graphs.search.depth_first_search import DepthFirstSearch
 
 
 def test_depth_first_search(graph):

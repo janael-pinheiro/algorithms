@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import List
 
-from algorithms.graph.search.graph import Graph
+from algorithms.graphs.search.graph import Graph
 
 
 @dataclass

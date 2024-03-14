@@ -1,4 +1,4 @@
-from algorithms.graph.search.breadth_first_search import BreadthFirstSearch
+from algorithms.graphs.search.breadth_first_search import BreadthFirstSearch
 
 
 def test_breadth_first_search(graph):

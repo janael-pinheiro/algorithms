@@ -2,16 +2,19 @@ from dataclasses import dataclass, field
 from queue import Queue
 from typing import List
 
-from algorithms.graph.search.graph import Graph
+from algorithms.graphs.search.graph import Graph
 
 
 @dataclass
-class BreadthFirstSearch:
+class BreadthFirstShortestPath:
     graph: Graph
     found_vertices: List[int] = field(default_factory=list)
 
     def execute(self, source_vertex: int) -> List[int]:
         visited: List[bool] = [False for _ in range(self.graph.number_vertices)]
+        distances: List[int] = [-1 for _ in range(self.graph.number_vertices)]
+        distances[source_vertex] = 0
+
         queue = Queue(self.graph.number_vertices)
 
         visited[source_vertex] = True
@@ -25,5 +28,6 @@ class BreadthFirstSearch:
             for vertex in adjacent_vertices:
                 if not visited[vertex]:
                     visited[vertex] = True
+                    distances[vertex] = distances[s] + 1
                     queue.put(vertex)
-        return self.found_vertices
+        return distances

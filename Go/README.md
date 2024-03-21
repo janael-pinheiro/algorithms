@@ -1,10 +1,13 @@
 ## Algorithms
 
-- [:heavy_check_mark:] Merge sort;
-- [:heavy_check_mark:] Quick sort:
-- [:heavy_check_mark:] Selection sort:
-- [:heavy_check_mark:] Insertion sort:
-- [:heavy_check_mark:] Counting sort:
+- [x] Merge sort;
+- [x] Quick sort;
+- [x] Selection sort;
+- [x] Insertion sort;
+- [x] Counting sort
+- [x] Buble sort;
+- [ ] Heap sort;
+- [ ] Recursive selection sort.
 
 ## Testing
 ```sh

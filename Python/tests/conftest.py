@@ -2,6 +2,7 @@ import pytest
 
 from algorithms.graphs.search.graph import Graph
 from algorithms.sort.bubble_sort import BubbleSort
+from algorithms.sort.bucket_sort import BucketSort
 from algorithms.sort.insertion_sort import InsertionSort
 from algorithms.sort.merge_sort import MergeSort
 from algorithms.sort.quick_sort import QuickSort
@@ -32,6 +33,10 @@ def merge_sort():
 def selection_sort():
     return SelectionSort()
 
+
+@pytest.fixture(scope="function")
+def bucket_sort():
+    return BucketSort()
 
 @pytest.fixture(scope="function")
 def graph():

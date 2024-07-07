@@ -76,7 +76,7 @@ def compute_energy(target_solution: str, neighbor: str) -> int:
 
 
 if __name__ == "__main__":
-    target = "pneumonoultramicroscopicsilicovolcanoconiosi"
+    target = "janael"
     simulated_annealing = SimulatedAnnealing(
         current_solution="".join([choice(string.ascii_lowercase) for _ in range(len(target))]),
         target=target,
@@ -86,4 +86,5 @@ if __name__ == "__main__":
         energy_function=compute_energy,
         get_neighbor_function=Neighbor().get_neighbor)
     solution = simulated_annealing.execute()
+    print(f"Solution: {solution}")
     assert target == solution

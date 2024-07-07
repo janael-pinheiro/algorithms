@@ -4,7 +4,7 @@ from typing import List, Callable, Set, Tuple
 from random import choice, choices, sample, randint
 import string
 
-from algorithms.metaheuristics.simulated_annealing import compute_energy
+from algorithms.metaheuristics.annealing.simulated_annealing import compute_energy
 
 
 @dataclass

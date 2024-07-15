@@ -1,7 +1,7 @@
 import string
 from random import choice
 
-from algorithms.search.simulated_annealing import SimulatedAnnealing, compute_energy, Neighbor
+from algorithms.metaheuristics.annealing.simulated_annealing import SimulatedAnnealing, compute_energy, Neighbor
 
 import pytest
 

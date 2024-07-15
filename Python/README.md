@@ -1,5 +1,6 @@
 ## Algorithms
 
+Sorting:
 - [x] Merge sort;
 - [x] Quick sort;
 - [x] Selection sort;
@@ -11,6 +12,15 @@
 - [x] Bucket sort;
 - [ ] TimSort.
 
+Graph:
+- [x] Breadth First Search;
+- [x] Depth First Search;
+- [x] Dijkstra Shortest Path.
+
+Metaheuristics:
+- [x] Simulated Annealing;
+- [x] Genetic Algorithms;
+- [x] Tabu Search.
 ## Testing
 ```sh
 $ pytest -v tests

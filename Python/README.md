@@ -10,7 +10,7 @@ Sorting:
 - [x] Heap sort;
 - [x] Recursive selection sort;
 - [x] Bucket sort;
-- [ ] TimSort.
+- [x] TimSort.
 
 Graph:
 - [x] Breadth First Search;

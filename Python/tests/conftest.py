@@ -7,6 +7,7 @@ from algorithms.sort.insertion_sort import InsertionSort
 from algorithms.sort.merge_sort import MergeSort
 from algorithms.sort.quick_sort import QuickSort
 from algorithms.sort.selection_sort import SelectionSort
+from algorithms.sort.timsort import TimSort
 
 
 @pytest.fixture(scope="function")
@@ -37,6 +38,12 @@ def selection_sort():
 @pytest.fixture(scope="function")
 def bucket_sort():
     return BucketSort()
+
+
+@pytest.fixture(scope="function")
+def tim_sort():
+    return TimSort()
+
 
 @pytest.fixture(scope="function")
 def graph():

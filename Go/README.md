@@ -8,6 +8,18 @@
 - [x] Buble sort;
 - [ ] Heap sort;
 - [ ] Recursive selection sort.
+- [ ] Bucket sort;
+- [ ] TimSort.
+
+Graph:
+- [ ] Breadth First Search;
+- [ ] Depth First Search;
+- [ ] Dijkstra Shortest Path.
+
+Metaheuristics:
+- [ ] Simulated Annealing;
+- [ ] Genetic Algorithms;
+- [ ] Tabu Search.
 
 ## Testing
 ```sh
